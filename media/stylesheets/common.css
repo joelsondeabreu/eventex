@@ -15,42 +15,49 @@ email:		joelsondeabreu@gmail.com
 }
 a{
 	text-decoration:none;
-	color:#999;
+	color:#ffc757;
 }
 a:hover{
-	text-decoration:none;
-	color:#333;
+	text-decoration:underline;
 }
 body {
   background:#FFF;
 }
-h1, p {
-  margin: 1em 0;
-}
 h1 {
+	color:#437353;
   font-size: 2.4em;
-  font-weight: normal;
 	text-align:center;
+	text-shadow:#CCC 2px 1px 0;
 }
 p {
-	font-size:1.2em;
+  margin: 1em 0;
+	font-size:1.3em;
 }
 #header {
-  height: 150px;
-  background: #BBB;
+  height:150px;
+	background:#f9f9f9 url(../images/logo.png) no-repeat center center;
+	border-bottom:1px solid #437353;
 }
 #footer {
-  padding: 1px 20px;
   font-size:11px;
   clear: both;
+	color:#CCC;
 }
 body {
   text-align: center; 
   min-width: 920px;
 }
 #wrapper{
-  width: 80%;
+  width:80%;
 	background:#FFF;
   margin: 0 auto; 
   text-align: left;
+}
+#wrapper a img{
+	float:right;
+}
+span{
+	color:#437353;
+	font-weight:bold;
+	text-shadow:#CCC 2px 1px 0;
 }
