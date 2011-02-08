@@ -1,7 +1,7 @@
 /*
-verison: beta
-author: Joelson de Abreu
-email: joelsondeabreu@gmail.com
+verison:	beta
+author:		Joelson de Abreu
+email:		joelsondeabreu@gmail.com
 */
 @import "reset.css";
 *, html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
@@ -24,26 +24,24 @@ a:hover{
 body {
   background:#FFF;
 }
+h1, p {
+  margin: 1em 0;
+}
 h1 {
   font-size: 2.4em;
   font-weight: normal;
+	text-align:center;
 }
-h1, h2, p {
-  margin: 1em 0;
+p {
+	font-size:1.2em;
 }
 #header {
   height: 150px;
   background: #BBB;
 }
-#header h1{
-	margin:0;
-	position:relative;
-  left:-100000px;
-}
 #footer {
   padding: 1px 20px;
   font-size:11px;
-  text-align:center;
   clear: both;
 }
 body {
@@ -51,14 +49,8 @@ body {
   min-width: 920px;
 }
 #wrapper{
-  width: 85%;
+  width: 80%;
 	background:#FFF;
   margin: 0 auto; 
   text-align: left;
-}
-#content { 
-  width: 100%; 
-  float: left;
-  padding-top:20px;
-  padding-bottom: 20px;
 }
